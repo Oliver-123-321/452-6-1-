@@ -1,0 +1,12 @@
+#textToChange, #textToToggle {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#dynamicElement {
+    color: blue;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
