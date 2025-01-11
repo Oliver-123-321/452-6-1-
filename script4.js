@@ -14,13 +14,6 @@ document.getElementById('toggleTextBtn').addEventListener('click', function() {
 });
 
 
-function addDynamicElement() {
-    var container = document.getElementById('container');
-    var newElement = document.createElement('div');
-    newElement.id = 'dynamicElement';
-    newElement.textContent = 'This is a dynamically added element.';
-    container.appendChild(newElement);
-}
 
 
 window.onload = addDynamicElement;
